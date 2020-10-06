@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{8F58A9E0-DF6F-41BB-A41B-B1FD7AAA9785}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Talk.CDR.FileReader/Program.cs">
+    <Files>
+      <File FileName="Talk.CDR.FileReader/Program.cs" Line="66" Column="1" />
+      <File FileName="Talk.CDR.FileReader/Services/ArquivoService.cs" Line="137" Column="1" />
+      <File FileName="Talk.CDR.FileReader/Entities/TalkBot.cs" Line="16" Column="47" />
+      <File FileName="Talk.CDR.FileReader/Entities/TalkBotResumo.cs" Line="30" Column="10" />
+      <File FileName="Talk.CDR.FileReader/Enum/LayoutEnum.cs" Line="6" Column="18" />
+      <File FileName="Talk.CDR.FileReader/Entities/Chamada.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Talk.CDR.FileReader" expanded="True">
+            <Node name="Talk.CDR.FileReader" expanded="True" selected="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Enum" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Talk.CDR.FileReader PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/valdez.bonfim/Projects/Talk.CDR.FileReader/Talk.CDR.FileReader/Program.cs" relfile="Talk.CDR.FileReader/Program.cs" line="66" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

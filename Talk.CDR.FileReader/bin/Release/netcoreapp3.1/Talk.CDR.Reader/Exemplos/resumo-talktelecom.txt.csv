@@ -1,0 +1,2 @@
+ArquivoNome;MD5; SHA256;FornecedorId;Fornecedor Nome; Data; Quantidade Movel; Minutos Movel; Quantidade Fixo; Minutos Fixo;  Quantidade Total; Minutos Total;Tempo Processamento; Operadora
+talktelecom.txt;b192da4fc0faef9d8f600f705b0aa2fe;d8562dfa0f946738ee121a6a8bd999101de761aaa76d390998a083b40b7ef09f;1;TALK;2020-06-16;364;217,6;134;100,2;498;317,8;65ms;OI
