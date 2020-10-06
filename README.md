@@ -21,7 +21,26 @@ Exemplos de utilização
 ```
 $ dotnet Talk.CDR.FileReader.dll "C:\CDR\Exemplos\claro.txt"
 ```
-
 Será solicitado o layout do arquivo informado. Deverá ser selecionado as opções entre 1-5.
+
+É possivel informar o layout via argumento, no qual poderá criar um shell para rodar mais de um arquivo no mesmo script, conforme exemplo abaixo:
+
+```
+#!/bin/bash
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202004_FaturamentoDetalhe_Monitoramento.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202004_FaturamentoDetalhe_Ativo.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202004_FaturamentoDetalhe_Receptivo.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202005_FaturamentoDetalhe_Ativo.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202005_FaturamentoDetalhe_Monitoramento.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202005_FaturamentoDetalhe_Receptivo.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202006_FaturamentoDetalhe_Receptivo.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202006_FaturamentoDetalhe_Ativo.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202006_FaturamentoDetalhe_Monitoramento.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202007_FaturamentoDetalhe_Ativo.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202007_FaturamentoDetalhe_Monitoramento.csv 5
+dotnet Talk.CDR.FileReader.dll /Users/TalkBot/202007_FaturamentoDetalhe_Receptivo.csv 5
+```
+
+
 
 Ao final do processamento será gerado um arquivo csv com o resumo de informações do mesmo.
